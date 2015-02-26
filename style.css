@@ -1,0 +1,76 @@
+@import url(reset.css);
+body {
+	background-repeat:repeat-x;
+	background-color:#244871;
+	line-height: 1;
+	color:#fff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+img {
+margin: 0 5px;
+}
+.form-content {
+width: 100%;
+background: #8AC007;
+padding: 20px;
+}
+.inner {
+width: 55%;
+margin: 0 auto;
+height: 200px;
+}
+.outer {
+width: 100%;
+margin-top: 20px;
+}
+p, a, h1, h2, h3, h4, h5, span {
+line-height: 15px;
+margin: 10px;
+}
+a {
+color: #8AC007;
+text-decoration: none;
+}
+
+form {
+margin: 0 auto;
+width: 33%;
+}
+input#text {
+border-radius: 20px;
+width: 200px;
+padding: 7px 20px;
+border: none;
+}
+input#submit {
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+border: none;
+padding: 7px;
+width: 80px;
+cursor: pointer;
+}
+.weather-image {
+width: 33%;
+float: left;
+margin-right: 20px;
+}
+.weather-info {
+float: left;
+width: 33%;
+}
+h4.temperature {
+background-color: #ccc;
+width: 50px;
+padding: 5px 0 5px 10px;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+color: #fff;
+}
+p.error {
+font-size: 20px;
+text-align: center;
+color: #E70F30;
+}
